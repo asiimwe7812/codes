@@ -1,0 +1,52 @@
+
+		
+body{
+	height: 125vh;
+	margin-top:80px ;
+	padding: 30px;
+	background-size:cover ;
+	font-family: sans-serif;
+	background: white;
+	background-image: url("jack.jpg");
+	background-position: center;
+	position: relative;
+
+	height: 500px;
+
+
+
+}
+nav{
+	background-color: orange;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 5px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 0 25px 0 black;
+}
+nav *{
+	display: inline;
+}
+
+ nav li{
+ 	margin: 20px;
+ }
+nav li a{
+	color: blue;
+	text-decoration: none;
+}
+nav li a.hover{
+	background-color: orange;
+	color: black;
+}
+p {
+	animation: marquee 30s linear infinite;
+}
+@keyframes marquee {
+	from { transform: translateY(-100%); }
+	to {transform: translateY(100%);}
+}
+

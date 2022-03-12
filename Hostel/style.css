@@ -1,0 +1,54 @@
+*{
+padding: 0;
+margin: 0;
+font-family: cursive;
+
+}
+body{
+	background: white;
+	background-image: url("jim.jpg");
+	background-position: center;
+	position: relative;
+	background-size: cover;
+	height: 600px;
+
+}
+.Registration-form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-30%,-50%);
+}
+.Registration-form h1{
+	font-size: 30px;
+	text-align: left;
+	text-transform: uppercase;
+	margin :40px 0;
+}
+.Registration-form p{
+	font-size: 30px;
+	margin: 15px 0;
+}
+.Registration-form input{
+	font-size: 16px;
+	padding: 15px 10px;
+	width :100%;
+	border: 0;
+	border-radius: 6px;
+	outline: none;
+
+}
+.Registration-form button{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px;
+	width: 100px;
+	border-radius: 5px;
+	border: 0;
+	background-color: blue;
+	margin: 20px 0;
+
+}
+.Registration-form button:hover{
+	color:  white;
+}
